@@ -1,0 +1,21 @@
+{
+  "name": "wedding-invitation",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Convite digital de casamento mobile-first.",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server/index.js",
+    "start": "node server/index.js",
+    "build:css": "tailwindcss -i ./src/styles/input.css -o ./public/assets/css/styles.css --minify",
+    "watch:css": "tailwindcss -i ./src/styles/input.css -o ./public/assets/css/styles.css --watch"
+  },
+  "dependencies": {
+    "express": "^4.18.3"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.0.0",
+    "nodemon": "^3.1.0",
+    "tailwindcss": "^4.0.0"
+  }
+}

@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --color-serenity: #8faeca;
+  --color-off-white: #f8f6f1;
+  --color-light-gray: #e8e8e2;
+  --color-leaf: #5d705c;
+  --font-title: "Great Vibes", cursive;
+  --font-body: "Cormorant Garamond", serif;
+  --font-button: "Inter", sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    min-width: 320px;
+  }
+
+  ::selection {
+    background: var(--color-serenity);
+    color: white;
+  }
+}
