@@ -60,6 +60,12 @@ app.use((err, _req, res, _next) => {
   });
 });
 
-app.listen(port, () => {
-  console.log(`Wedding invitation running at http://localhost:${port}`);
-});
+const isDirectRun = process.argv[1] && path.resolve(process.argv[1]) === __filename;
+
+if (isDirectRun) {
+  app.listen(port, () => {
+    console.log(`Wedding invitation running at http://localhost:${port}`);
+  });
+}
+
+export default app;
