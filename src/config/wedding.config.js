@@ -1,6 +1,6 @@
 export const weddingConfig = {
   couple: {
-    names: "Ingrid & Thiago",
+    names: "Ingrid & Tiago",
     brideFullName: "Ingrid Carvalho de Oliveira",
     groomFullName: "Tiago Vinicius de Jesus Santos",
   },
