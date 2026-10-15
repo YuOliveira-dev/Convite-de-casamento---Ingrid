@@ -28,6 +28,7 @@ app.use((_req, res, next) => {
       "style-src 'self' https://fonts.googleapis.com",
       "font-src 'self' https://fonts.gstatic.com",
       "img-src 'self' data:",
+      "media-src 'self' data:",
       "frame-src https://www.google.com https://maps.google.com",
       "form-action 'self'",
       "base-uri 'self'",

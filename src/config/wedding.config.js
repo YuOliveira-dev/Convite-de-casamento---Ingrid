@@ -8,6 +8,8 @@ export const weddingConfig = {
     heroImage: "/assets/img/hero-floral.png",
     heroImageAlt:
       "Arranjo floral branco com folhagens verdes e tecido azul serenity.",
+    audio: "/assets/audio/a-bencao.mp3",
+    audioTitle: "A Benção (Instrumental Piano)",
   },
   content: {
     heroKicker: "Convite de casamento",
@@ -78,21 +80,15 @@ export const weddingConfig = {
       wazeActionLabel: "Abrir no Waze",
     },
     rsvp: {
-      eyebrow: "Confirmação",
-      title: "Confirme sua presença",
+      eyebrow: "Confirmação de Presença",
+      title: "Sua presença é essencial",
       description:
-        "Evento exclusivo para convidados. Confirme até 30 dias antes e lembre-se: não será possível levar acompanhante.",
-      fields: {
-        name: "Nome completo",
-        phone: "Telefone",
-        message: "Mensagem opcional",
-      },
-      actionLabel: "Enviar confirmação",
-      validationMessage: "Confira seu nome e telefone antes de enviar.",
-      loadingMessage: "Enviando confirmação...",
-      successMessage: "Presença confirmada. Obrigado!",
-      errorMessage:
-        "Não foi possível registrar sua confirmação agora. Tente novamente mais tarde.",
+        "Evento exclusivo para convidados. Por favor, confirme com antecedência para que possamos organizar tudo com muito carinho. Lembramos que a entrada é permitida apenas com confirmação prévia e não será possível levar acompanhante.",
+      note: "Ao clicar no botão abaixo, você será direcionado para o formulário oficial do Buffet Mais.",
+      actionLabel: "Confirmar presença",
+      reopenLabel: "Reabrir formulário de confirmação",
+      successNotice: "A página do Buffet Mais foi aberta em uma nova aba. Finalize seus dados por lá para concluir sua confirmação!",
+      buttonClickedLabel: "✓ Confirmação Aberta",
     },
     actions: {
       giftsLabel: "Lista de presentes",
@@ -110,6 +106,7 @@ export const weddingConfig = {
   },
   links: {
     gifts: "",
+    rsvp: "http://app.buffetmais.com/RSVP/gUoyAoivJPMfqHpCXPOJNYPfulwChn",
     maps: "https://maps.app.goo.gl/KN7DBspk66k7qEcX6",
     waze:
       "https://ul.waze.com/ul?place=EkVSLiBDYWJvIEQnYW50aWJlcywgMTEgLSDDgWd1YSBBenVsLCBHdWFydWxob3MgLSBTUCwgMDcxNTktMDkwLCBCcmF6aWwiMBIuChQKEgm_8MmWJYnOlBGRGoG1gXaI_BALKhQKEgmPODbvJYnOlBGlSxIZ658scw&ll=-23.36594380%2C-46.40801150&navigate=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location",
