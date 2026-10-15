@@ -38,6 +38,7 @@ const renderApp = (config) => {
     couple: config.couple,
     event: config.event,
     content: config.content,
+    assets: config.assets,
     onOpen: () => {
       musicPlayer.play();
     },

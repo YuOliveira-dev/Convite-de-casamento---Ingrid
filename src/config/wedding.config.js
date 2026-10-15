@@ -8,6 +8,7 @@ export const weddingConfig = {
     heroImage: "/assets/img/hero-floral.png",
     heroImageAlt:
       "Arranjo floral branco com folhagens verdes e tecido azul serenity.",
+    monogramLogo: "/assets/img/monogram-logo.jpg",
     audio: "/assets/audio/a-bencao.mp3",
     audioTitle: "A Benção (Instrumental Piano)",
   },
